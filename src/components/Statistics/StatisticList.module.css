@@ -1,0 +1,13 @@
+.statlist {
+  display: flex;
+  color: white;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid grey;
+}
+.item {
+  flex-basis: calc(100% / 5);
+  text-align: center;
+  padding: 7px;
+}
